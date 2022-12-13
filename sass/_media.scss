@@ -1,0 +1,536 @@
+@media (min-width:300px) {
+
+    .grid-0 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 0px;
+        grid-template-areas: "header"
+            "inter1"
+            "inter2"
+            "inter3"
+            "inter4"
+            "footer"
+    }
+
+    .iconos {
+        display: block;
+
+        p {
+            font-size: 15px;
+            text-align: center;
+            padding-bottom: 1%;
+        }
+        h3 {
+            color: #00695C;
+            font-size: 30px;
+            text-align: center;
+            padding: 0px 30px 30px 30px;
+        }
+
+    }
+
+    .row {
+        display: block;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .somos {
+
+        padding-top: 50px;
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            padding-top: 10%;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+
+        p {
+            text-align: left;
+            font-size: 15px;
+            padding-top: 10%;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+
+        img {
+            width: 80%;
+        }
+
+        form {
+            text-align: center;
+            font-size: 20px;
+            padding-top: 10%;
+            margin: 0px 50px 0px 50px;
+        }
+    }
+
+    .nosotros {
+        
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+
+        p {
+            font-size: 15px;
+            padding: 0px 50px 0px 50px;
+        }
+
+        form {
+            text-align: center;
+            font-size: 20px;
+            padding-top: 10%;
+            margin: 0px 50px 0px 50px;
+        }
+
+    }
+
+    .item-2 {
+    
+    div h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 3%;
+        }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .somos img {
+        width: 100%;
+    }
+
+    }
+
+    .item-3 {
+
+    .somos h2 {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 3%;                
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    }
+
+    .item-4 {
+
+    .nosotros p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    }
+
+    .galeria {
+        padding: 0px 10px 10px 10px;
+
+    }
+    .galeria h2 {
+        font-size: 30px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .form2 form {
+        padding-right: 200px;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+
+    .form3 form {
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+
+}
+
+@media (min-width:700px) {
+
+    .grid-0 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        display: grid;
+        width: 100%;
+        grid-gap: 20px;
+        grid-template-areas: "header   header   header  header"
+            "inter1     inter1     inter1   inter1"
+            "inter2     inter2     inter3   inter3"
+            "inter4     inter4     inter4   inter4"
+            "footer   footer   footer   footer"
+    }
+
+    h1 {
+        color:#00695C;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .item-3 {
+
+        .somos h2 {
+                font-size: 40px;
+                text-align: center;
+                padding-top: 3%;                
+        }
+    
+        .somos p {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 15px;
+            text-align: left;
+            padding-bottom: 3%;
+        }
+    
+    }
+
+    .item-4 {
+
+        .nosotros h1 {
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+        }
+        .nosotros h2 {
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .nosotros p {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    .iconos {
+
+    .iconos p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0% 10% 10% 10%;
+    }
+
+    .iconos h3 {
+        font-size: 25px;
+        text-align: center;
+        padding: 0px 30px 30px 30px;
+    }
+
+}
+
+    .somos {
+        
+    h2 {
+        font-size: 45px;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    p {
+        text-align: left;
+        font-size: 18px;
+        padding: 50px 50px 0px 0px;
+    }
+
+    img {
+        width: 100%;
+        padding: 50px 0px 10px 50px;
+    }
+
+    form {
+        margin: 0px 50px 0px 50px;
+    }
+
+    }
+
+    .nosotros h2 {
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+        padding-top: 130px;
+    }
+
+    .nosotros h3 {
+        font-size: 0px;
+        text-align: left;
+        padding-top: 10%;
+    }
+
+    .nosotros p {
+        text-align: center;
+        font-size: 18px;
+        padding: 50px 40px 50px 40px;
+    }
+
+    .galeria h2 {
+        font-size: 30px;
+    }
+
+    .item-4 h2 {
+        font-size: 50px;
+    }
+
+    .nosotros form {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .form2 form {
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    .form3 form {
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+
+}
+
+@media(min-width:1024px) {
+
+    .grid-0 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        display: grid;
+        width: 100%;
+        grid-gap: 20px;
+        grid-template-areas: "header   header   header  header"
+            "inter1     inter1     inter1   inter1"
+            "inter2     inter2     inter3   inter3"
+            "inter4     inter4     inter4   inter4"
+            "footer   footer   footer   footer"
+    }
+
+    h1 {
+        color:#fff;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .iconos {
+
+        display: flex;
+
+        p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0% 10% 10% 10%;
+        }
+
+        h3 {
+        font-size: 25px;
+        text-align: center;
+        padding: 0px 30px 30px 30px;
+        }
+
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .somos {
+
+    h3 {
+        font-size: 40px;
+        text-align: left;
+        padding-top: 100px;
+        padding-right: 40%;
+        padding-left: 10%;
+    }
+
+    h32 {
+        font-size: 40px;
+        text-align: left;
+        padding-top: 100px;
+        padding-right: 40%;
+        padding-left: 10%;
+    }
+
+    p {
+        text-align: left;
+        font-size: 16px;
+        padding-right: 50%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    }
+
+    .nosotros {
+
+    h2 {
+        font-size: 400px;
+        text-align: left;
+        padding-top: 100px;
+        padding-left: 25%;
+    }
+
+    h3 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        padding-top: 1%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    }
+
+
+    .minihead2 img {
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .galeria h2 {
+        font-size: 40px;
+        text-align: left;
+        padding-top: 100px;
+        padding-right: 40%;
+    }
+
+    .galeria p {
+        text-align: left;
+        font-size: 16px;
+        padding-top: 1%;
+        padding-right: 40%;
+        padding-bottom: 50px;
+    }
+
+    .nosotros form {
+        padding-right: 25%;
+        padding-left: 22%;
+        padding-top: 5%;
+    }
+
+    .somos form {
+        margin: 0px 500px 0px 0px;
+    }
+
+    .form2 form {
+        padding: 100px 400px 100px 400px;
+    }
+
+    .form3 form {
+        padding: 100px 400px 100px 400px;
+    }
+
+    .item-2 {
+    
+    img {
+        padding-top: 100%;
+    }
+
+    .somos img {
+        width: 100%;
+    }
+
+
+}
+
+    .item-3 {
+
+    img {
+        padding-top: 10%;
+    }
+
+    .somos h2 {
+        text-align: left;
+        font-size: 50px;
+        padding-top: 1%;
+    }
+
+    .somos p {
+        text-align:justify;
+        font-size: 16px;
+        padding-top: 1%;
+    }
+
+}
+
+    .item-2 {
+
+    div h2 {
+        text-align: left;
+        font-size: 45px;
+        padding-left: 3%;
+        padding-top: 5%;
+    }
+
+    p {
+        text-align:justify;
+        font-size: 15px;
+    }
+
+    }
+
+    .form3 form {
+        padding-right: 20%;
+        padding-left: 10%;
+        padding-top: 15%;
+    }
+
+    .item-4 {
+
+        .nosotros h2 {
+        text-align: left;
+        font-size: 45px;
+        padding-top: 5%;   
+        }
+
+        .nosotros p {
+            font-size: 20px;
+            text-align: justify;
+
+        }
+    }
+
+}
