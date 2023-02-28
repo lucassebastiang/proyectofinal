@@ -1,0 +1,25 @@
+/* cartas */
+
+.cartas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .btn {
+    background-color:$colorprincipal;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-title {
+    color:$colorprincipal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    color: #263238;
+}

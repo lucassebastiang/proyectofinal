@@ -1,0 +1,34 @@
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color:$colorblanco;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color:$colorblanco;
+    font-size: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color:$colorprincipal;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: left;
+    color:$colorblanco;
+    font-size: 15px;
+}
